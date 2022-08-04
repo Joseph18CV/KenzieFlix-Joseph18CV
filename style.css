@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+
+}
+
+.container img{
+    width: 100%;
+    max-width: 300px;
+    max-height: 100px;
+    margin-top: 50px;
+
+
+}
+
+.container h1{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 55px;
+}
+
+.container2{
+    display: flex;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+
+.profiles1 {
+    max-width: 165px;
+    max-height: 162px;
+    border: solid #000 1px;
+    text-align: start;
+    margin: 0 auto;
+
+}
+
+.profiles1:hover {
+    border: solid #fff 1px;
+}
+
+.profiles2 {
+    max-width: 165px;
+    max-height: 162px;
+    border: solid #000 1px;
+    text-align: start;
+    margin: 0 auto;
+}
+
+.profiles2:hover {
+    border: solid #fff 1px;
+}
+
+.profiles3 {
+    max-width: 165px;
+    max-height: 162px;
+    border: solid #000 1px;
+    text-align: start;
+    margin: 0 auto;
+}
+
+.profiles3:hover {
+    border: solid #fff 1px;
+}
+
+.profiles4 {
+    max-width: 165px;
+    max-height: 162px;
+    border: solid #000 1px;
+    text-align: start;
+    margin: 0 auto;
+}
+
+.profiles4:hover {
+    border: solid #fff 1px;
+}
+
+#profile{
+    background-color: rgb(39, 39, 39);
+    width: 165px;
+    height: 165px;
+}
+
+
+#imagem_profile{
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+
+#nome{
+    width: 160px;
+    color: rgba(163, 162, 162, 0.767);
+    text-align: center;
+    text-decoration: none;
+}
+
+.container4{ 
+    max-width: 700px;
+    margin-top: 20px;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.container5{
+    max-width: 198px;
+    height: 47px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#Gerenciar{
+    color: #fff;
+    padding: 13px 40px;
+    border: solid #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#Gerenciar:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+#imagem_profile {
+    filter: opacity(30%);
+}
+
+#imagem_profile:hover {
+    filter: opacity(100%);
+}
+
+#nome:hover {
+    color: #fff;
+}
