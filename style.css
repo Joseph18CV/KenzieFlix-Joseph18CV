@@ -39,125 +39,82 @@ body {
     margin-top: 55px;
 }
 
-.container2{
-    display: flex;
-    max-width: 720px;
-    margin: 0 auto;
-}
-
-
-.profiles1 {
-    max-width: 165px;
-    max-height: 162px;
-    border: solid #000 1px;
-    text-align: start;
-    margin: 0 auto;
-
-}
-
-.profiles1:hover {
-    border: solid #fff 1px;
-}
-
-.profiles2 {
-    max-width: 165px;
-    max-height: 162px;
-    border: solid #000 1px;
-    text-align: start;
-    margin: 0 auto;
-}
-
-.profiles2:hover {
-    border: solid #fff 1px;
-}
-
-.profiles3 {
-    max-width: 165px;
-    max-height: 162px;
-    border: solid #000 1px;
-    text-align: start;
-    margin: 0 auto;
-}
-
-.profiles3:hover {
-    border: solid #fff 1px;
-}
-
-.profiles4 {
-    max-width: 165px;
-    max-height: 162px;
-    border: solid #000 1px;
-    text-align: start;
-    margin: 0 auto;
-}
-
-.profiles4:hover {
-    border: solid #fff 1px;
-}
-
-#profile{
-    background-color: rgb(39, 39, 39);
-    width: 165px;
-    height: 165px;
-}
-
-
-#imagem_profile{
-    margin-left: 40px;
-    margin-top: 35px;
-}
-
-
-#nome{
-    width: 160px;
-    color: rgba(163, 162, 162, 0.767);
-    text-align: center;
-    text-decoration: none;
-}
-
-.container4{ 
+.container2 {
     max-width: 700px;
-    margin-top: 20px;
-    height: 35px;
     margin: 0 auto;
+}
+
+
+.container2 ul {
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
-    margin-top: 10px;
-
 }
 
-.container5{
-    max-width: 198px;
-    height: 47px;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 80px;
-}
-
-#Gerenciar{
-    color: #fff;
-    padding: 13px 40px;
-    border: solid #fff;
-    border-radius: 10px;
-    font-size: 14px;
+.container2 ul li {
     text-align: center;
-    font-weight: bold;
-
+    margin-top: 20px;
 }
 
-#Gerenciar:hover {
-    color: #000;
-    background-color: #fff;
+#imagee {
+    margin-top: 35px;
+    opacity: 30%;
 }
 
-#imagem_profile {
-    filter: opacity(30%);
+figcaption {
+    color: rgb(106, 105, 105);
 }
 
-#imagem_profile:hover {
-    filter: opacity(100%);
+.image_profile  {
+    background-color: rgba(82, 82, 82, 0.601);
+    width: 160px;
+    height: 160px;
+    text-align: center;
 }
 
-#nome:hover {
+#titulo {
+    margin-top: 52px;
+}
+
+.container2 ul li figure:hover .image{
+    border: solid 2px;
+    border-color: #fff;
+}
+
+.container2 ul li figure:hover figcaption{
     color: #fff;
+}
+
+.container2 ul li figure:hover div{
+    border: solid 2px;
+    border-color: #fff; 
+}
+
+.container2 ul li figure:hover #imagee{
+    opacity: 100%;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.container3{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+p {
+    color: #fff;
+    max-width: 200px;
+    max height: 50px;
+    padding: 12px 38px;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+p:hover {
+    background-color: #fff;
+    color: #000;
 }
